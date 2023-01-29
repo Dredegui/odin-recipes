@@ -71,7 +71,14 @@ li {
 }
 
 @media screen and (min-width: 1000px) {
-	img {
-		width: 850px;
+	.main {
+		width: 900px;
+	}
+
+	ul {
+		width: 900px;
+		margin: auto;
 	}
 }
+
+/*Maybe add a main col that has the pink/bedge background color and around that we just put white*/
