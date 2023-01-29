@@ -11,19 +11,21 @@ img.basic {
 
 h3 {
 	text-align: center;
-	color:rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 }
 
-a:visited, a:link, a:hover, a:active {
+a:visited,
+a:link,
+a:hover,
+a:active {
 	text-decoration: none;
 }
 
 a:hover {
 	background-color: rgba(188, 208, 209, 0.671);
-
 }
 
-ul{
+ul {
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
@@ -58,12 +60,18 @@ li {
 	margin-bottom: 5%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
 	li {
 		display: inline-block;
 		width: 30%;
 	}
 	.main {
 		margin-bottom: 5%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	img {
+		width: 850px;
 	}
 }
